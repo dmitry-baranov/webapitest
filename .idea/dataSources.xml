@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="mywarehouse@localhost" uuid="2ea0a9bb-5908-41ce-bceb-94a2c0fa3fd7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/mywarehouse</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mywarehousetest@localhost" uuid="2b47eeeb-6897-4209-9e0f-b57480663fda">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/mywarehousetest</jdbc-url>
+    </data-source>
+  </component>
+</project>

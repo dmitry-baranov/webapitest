@@ -1,0 +1,5 @@
+<root>
+    <item name='org.jboss.arquillian.junit.Arquillian'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

@@ -1,0 +1,181 @@
+{
+	"id": "83040e59-d2f7-d01d-1f00-8421d226bef5",
+	"name": "web-api-test",
+	"description": "",
+	"order": [
+		"a7e26655-53f0-d11b-fc85-662e1a4a4e84",
+		"cc6b0ff0-bceb-37fb-b13b-21f4adee97af",
+		"3ab0a8ff-c801-6f95-bf7b-39ef7b3b6fc4",
+		"2ac5c965-b767-d1f6-e251-a2b8b46a8c5e",
+		"5bf02088-cda4-f125-f034-de89aed130f9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1525300778812,
+	"owner": "3959706",
+	"public": false,
+	"requests": [
+		{
+			"id": "2ac5c965-b767-d1f6-e251-a2b8b46a8c5e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bankaccount/delete",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "83040e59-d2f7-d01d-1f00-8421d226bef5",
+			"data": [],
+			"dataMode": "raw",
+			"name": "delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525386728880,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"account\": \"12345\"\n}"
+		},
+		{
+			"id": "3ab0a8ff-c801-6f95-bf7b-39ef7b3b6fc4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bankaccount/deposit",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "83040e59-d2f7-d01d-1f00-8421d226bef5",
+			"data": [],
+			"dataMode": "raw",
+			"name": "deposit",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525386715170,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"account\": \"12345\",\n\t\"value\" : \"500\"\n}"
+		},
+		{
+			"id": "5bf02088-cda4-f125-f034-de89aed130f9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bankaccount/withdraw",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "83040e59-d2f7-d01d-1f00-8421d226bef5",
+			"data": [],
+			"dataMode": "raw",
+			"name": "withdraw",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525386742699,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"account\": \"12345\",\n\t\"value\" : \"500\"\n}"
+		},
+		{
+			"id": "a7e26655-53f0-d11b-fc85-662e1a4a4e84",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/web-api/a",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "83040e59-d2f7-d01d-1f00-8421d226bef5",
+			"data": [],
+			"dataMode": "raw",
+			"name": "createAccount",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525300763918,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\t{\n\t\t\t\"account\": \"123\"\n\t\t}"
+		},
+		{
+			"id": "cc6b0ff0-bceb-37fb-b13b-21f4adee97af",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bankaccount/balance?id=12345",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "12345",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "83040e59-d2f7-d01d-1f00-8421d226bef5",
+			"data": null,
+			"dataMode": "params",
+			"name": "balance",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525386698638,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
